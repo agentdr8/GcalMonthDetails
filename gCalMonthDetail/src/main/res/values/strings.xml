@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">GCalMonthDetail</string>
+	<string name="textsizeevent_title">Event Text Size</string>
+	<string name="textsizeevent_summary">Size of the event text font</string>
+	<string name="textsizeeventtitle_title">Event Text Title Size</string>
+	<string name="textsizeeventtitle_summary">Size of the event text title font</string>
+	<string name="dnapadding_title">DNA Padding</string>
+	<string name="dnapadding_summary">Padding around the all day events</string>
+	<string name="eventsqwidth_title">Event square width</string>
+	<string name="eventsqwidth_summary">Width of the event square</string>
+	<string name="eventsqborder_title">Event square border</string>
+	<string name="eventsqborder_summary">Width of the event square border</string>
+	<string name="debug_title">Debug</string>
+	<string name="debug_summary">Enable debug output to log to Xposed error.log</string>
+	
+</resources>
+

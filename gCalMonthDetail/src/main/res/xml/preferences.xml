@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d pixels"
+        max="24"
+        min="1"
+        android:defaultValue="12"
+        android:key="textsizeevent"
+        android:summary="@string/textsizeevent_summary"
+        android:title="@string/textsizeevent_title" />
+    
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d pixels"
+        max="28"
+        min="1"
+        android:defaultValue="14"
+        android:key="textsizeeventtitle"
+        android:summary="@string/textsizeeventtitle_summary"
+        android:title="@string/textsizeeventtitle_title" />
+    
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d pixels"
+        max="12"
+        min="1"
+        android:defaultValue="6"
+        android:key="dnapadding"
+        android:summary="@string/dnapadding_summary"
+        android:title="@string/dnapadding_title" />
+    
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d pixels"
+        max="20"
+        min="1"
+        android:defaultValue="10"
+        android:key="eventsqwidth"
+        android:summary="@string/eventsqwidth_summary"
+        android:title="@string/eventsqwidth_title" />
+    
+    <de.robv.android.xposed.library.ui.ValueSeekBarPreference
+        displayFormat="%d pixels"
+        max="4"
+        min="1"
+        android:defaultValue="2"
+        android:key="eventsqborder"
+        android:summary="@string/eventsqborder_summary"
+        android:title="@string/eventsqborder_title" />
+    
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="debug"
+            android:summary="@string/debug_summary"
+            android:title="@string/debug_title" />
+    
+</PreferenceScreen>
